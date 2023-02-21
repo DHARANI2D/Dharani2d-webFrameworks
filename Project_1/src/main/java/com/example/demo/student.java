@@ -1,18 +1,18 @@
 package com.example.demo;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-public class student {
+public class Name {
 		@JsonProperty("id")
 	private String Name;
 	private int RollNo;
 	private int Rank;
-	public student(String name, int rollNo, int rank) {
+	public Name(String name, int rollNo, int rank) {
 		super();
 		Name = name;
 		RollNo = rollNo;
 		Rank = rank;
 	}
-	public student() {
+	public Name() {
 		super();
 		// TODO Auto-generated constructor stub
 	}

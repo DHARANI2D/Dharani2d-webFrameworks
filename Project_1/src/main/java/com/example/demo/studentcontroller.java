@@ -18,11 +18,11 @@ public class studentcontroller {
 	}
 	
 	@GetMapping("/list")
-	public List<student>getList(){
-		List<student> detailsList = new ArrayList<>();
-		detailsList.add(new student("XXXX",1,23));
-		detailsList.add(new student("yyyy",2,3));
-		detailsList.add(new student("zzzz",3,35));
+	public List<Name>getList(){
+		List<Name> detailsList = new ArrayList<>();
+		detailsList.add(new Name("XXXX",1,23));
+		detailsList.add(new Name("yyyy",2,3));
+		detailsList.add(new Name("zzzz",3,35));
 		return detailsList;
 	}	
 }
